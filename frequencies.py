@@ -5,4 +5,4 @@ def frequencies(items):
     frequencies = {}
     for item in items:
         frequencies[item] = frequencies.get(item,0) + 1
-    return frequencies
+    print(frequencies)
