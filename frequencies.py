@@ -6,6 +6,6 @@ def frequencies(items):
     newlist = []
     for item in items:
         newlist.append(str(item))
-    for item in newlist:
-        frequencies[item] = frequencies.get(item,0) + 1
+    for items in newlist:
+        frequencies[items] = frequencies.get(item,0) + 1
     print(frequencies)
